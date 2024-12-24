@@ -23,9 +23,10 @@ class MyHomePage extends StatelessWidget {
         title: Text("Despesas Pessoais"),
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceAround, //Adiciona um espaço entre os elementos
+        crossAxisAlignment: CrossAxisAlignment.stretch, //Ela estica os elementos
         children: [
           Container(
-            width: double.infinity,
             child: Card(
               color: Colors.blue,
               elevation: 10,
